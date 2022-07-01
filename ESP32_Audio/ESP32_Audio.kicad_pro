@@ -324,6 +324,10 @@
     [
       "0abae95b-d5a4-4748-82ac-72b4806a03dc",
       "Battery Power"
+    ],
+    [
+      "3841a514-4c7d-4ec2-84d0-06948ce99c88",
+      "Power regulators"
     ]
   ],
   "text_variables": {}

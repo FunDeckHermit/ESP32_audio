@@ -3518,9 +3518,22 @@
     )
   )
 
+  (sheet (at 43.18 2.54) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3841a514-4c7d-4ec2-84d0-06948ce99c88)
+    (property "Sheet name" "Power regulators" (id 0) (at 43.18 1.8284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "powerregulators.kicad_sch" (id 1) (at 43.18 6.9346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/0abae95b-d5a4-4748-82ac-72b4806a03dc" (page "2"))
+    (path "/3841a514-4c7d-4ec2-84d0-06948ce99c88" (page "3"))
   )
 
   (symbol_instances
@@ -3566,6 +3579,9 @@
     (path "/346b81bf-ab89-40eb-8827-66fd1ccc6c7c"
       (reference "#PWR?") (unit 1) (value "+5VD") (footprint "")
     )
+    (path "/3841a514-4c7d-4ec2-84d0-06948ce99c88/35d426ba-7bfb-42fd-b324-993fcbe58b20"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/0abae95b-d5a4-4748-82ac-72b4806a03dc/3647b579-9f04-4867-ad80-87ffc46424d4"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -3598,9 +3614,6 @@
     )
     (path "/7bf86d8c-f3c7-42b4-a6a6-d2126980a6fe"
       (reference "#PWR?") (unit 1) (value "+5VA") (footprint "")
-    )
-    (path "/0abae95b-d5a4-4748-82ac-72b4806a03dc/80be51b0-d28a-42ba-94ba-5266eb731e91"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/80fce06e-7e63-4980-af2b-58dc44402d67"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
@@ -3653,7 +3666,16 @@
     (path "/c63b5b62-7a87-4db6-81bd-5123f8970274"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/3841a514-4c7d-4ec2-84d0-06948ce99c88/c9517de9-e596-4a78-8ef5-71f63dba7571"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3841a514-4c7d-4ec2-84d0-06948ce99c88/ca3e7f10-e5c3-4276-a2ce-21d7ec249758"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/0abae95b-d5a4-4748-82ac-72b4806a03dc/cb0c6afa-66d7-4c36-985e-6a58a9e15f2c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3841a514-4c7d-4ec2-84d0-06948ce99c88/ce6ad3bc-e0b4-4e89-b898-344d0f76d5aa"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/0abae95b-d5a4-4748-82ac-72b4806a03dc/d1ec3343-5da3-40d3-9594-fff5534a6b7e"
@@ -3683,11 +3705,20 @@
     (path "/f5a8f694-3695-4206-945a-5ca5b680c8d9"
       (reference "#PWR?") (unit 1) (value "+5VA") (footprint "")
     )
+    (path "/3841a514-4c7d-4ec2-84d0-06948ce99c88/fe1ef6b4-74d3-43c6-9304-4a8e6e477d2c"
+      (reference "#PWR?") (unit 1) (value "+VDC") (footprint "")
+    )
     (path "/fe6a3f98-3826-4734-8e13-6f07b97ef0a6"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/ffbf22a9-0177-40c0-bbda-468c16704b4b"
       (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/3841a514-4c7d-4ec2-84d0-06948ce99c88/082f9ef8-e3a1-4eb3-9bf6-3517f915e0c7"
+      (reference "C?") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
+    (path "/3841a514-4c7d-4ec2-84d0-06948ce99c88/11147381-71ed-4c20-a6fa-a9ed6d0e71c8"
+      (reference "C?") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/0abae95b-d5a4-4748-82ac-72b4806a03dc/2e358f81-0ec0-4327-85ce-b1f039f408a8"
       (reference "C?") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -3782,9 +3813,6 @@
     (path "/0abae95b-d5a4-4748-82ac-72b4806a03dc/07a3ebc8-d069-4053-8093-c08866c5f9c8"
       (reference "R?") (unit 1) (value "470") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
-    (path "/0abae95b-d5a4-4748-82ac-72b4806a03dc/0cd50f23-d3cf-4e54-a487-9dcc58791ed0"
-      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
     (path "/109a32ec-3752-47da-87ed-db30f98606df"
       (reference "R?") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
@@ -3810,9 +3838,6 @@
       (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/771ed66a-c1ea-47fd-ac4d-6250bd7d79cd"
-      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/0abae95b-d5a4-4748-82ac-72b4806a03dc/7a332880-b6be-4e69-ba8a-52c3f7735500"
       (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/0abae95b-d5a4-4748-82ac-72b4806a03dc/87f7e3cb-84c3-4770-a11c-d49589877ddd"
@@ -3841,6 +3866,9 @@
     )
     (path "/0abae95b-d5a4-4748-82ac-72b4806a03dc/db79b515-4386-4991-93a3-b2a2888a54d7"
       (reference "RV?") (unit 1) (value "10k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3386F_Vertical")
+    )
+    (path "/3841a514-4c7d-4ec2-84d0-06948ce99c88/0fad01c3-c621-4b29-b9c8-abc38a977e63"
+      (reference "U?") (unit 1) (value "AP2112M-3.3TRG1") (footprint "AP2112M-3.3TRG1:SOIC127P600X175-8N")
     )
     (path "/15f560b6-5f77-4d15-b789-d3c7a6b8170c"
       (reference "U?") (unit 1) (value "LM324A") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
