@@ -300,6 +300,15 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
@@ -311,6 +320,10 @@
     [
       "a6b25466-26de-407f-a856-6ff6786bbf5b",
       ""
+    ],
+    [
+      "0abae95b-d5a4-4748-82ac-72b4806a03dc",
+      "Battery Power"
     ]
   ],
   "text_variables": {}
