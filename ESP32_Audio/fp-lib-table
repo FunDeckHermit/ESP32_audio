@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "AP2112M-3.3TRG1")(type "KiCad")(uri "${KIPRJMOD}/Libraries/AP2112M-3.3TRG1")(options "")(descr ""))
+)
